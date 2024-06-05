@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    color: #fff;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inter", sans-serif;
+}
+
+.wrapper {
+    background-image: url('./assets/mohammad-alizade-4wzRuAb-KWs-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    justify-content: start;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pages {
+    width: 80%;
+}
+
+
+#time {
+    font-size:5rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.pages img {
+    width: 60px;
+    height: auto;
+}
+
+.card {
+    background-color: rgba(255,255,255,0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    width: 100px;
+    height: auto;
+    border: rgba(255,255,255,0.5) 1px solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
